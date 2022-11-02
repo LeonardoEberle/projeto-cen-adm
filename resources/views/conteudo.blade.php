@@ -1,6 +1,7 @@
 <head>
     <link rel="stylesheet" href="{{ asset('style.css') }}">
 </head>
+
 <body>
     <header>
         <nav>
@@ -23,8 +24,40 @@
             </div>
         </div>
     </header>
-    <main>
-        <h1>secoes exixtentes</h1>
-        tabelas das secoes
+    <main class = "conteudo">
+        <div>
+            <h1>
+                seçoes existentes
+            </h1>
+        </div>
+        <div>
+            <table class="secoes">
+                <tr>
+                    <th>#</th>
+                    <th>seçao</th>
+                    <th>açao</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Pagina principal</td>
+                    <td><a href="#" class="tabela">editar</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Atraçoes culturais</td>
+                    <td><a href="#" class="tabela">editar</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Esculturas</td>
+                    <td><a href="#" class="tabela">editar</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Iluminaçao cenica</td>
+                    <td><a href="#" class="tabela">editar</a></td>
+                </tr>
+            </table>
+        </div>
     </main>
 </body>

@@ -26,9 +26,9 @@
     <main>
     <a href="/usuario">
         <div class="card-option">
-            <div class="topo-card">Gerenciar Conteudo</div>
+            <div class="topo-card">Gerenciar Usuarios</div>
             <div class="cont-card">Gerenciamento de Usuarios</div>
-            <div class="botton-card">gerenciamento de conteudo</div>
+            <div class="botton-card">gerenciamento de Usuarios</div>
         </div>
     </a>
     <a href="/conteudo">
